@@ -4,6 +4,7 @@ I have completely created the Game using HTML,Tailwindcss and javascript
 HTML - is used to create the elements like div, para etc..
 TAILWINDCSS - is used to style the elements created in html/i have used class and id selectors to select the elements and style.
 JS - is used to create some elements and functions to make the Game interactive and elegent
+
 PAGE 01 :
 Page 01 consist of 3 elements
 ELEMENT 01 - a title "welcome to memory matching game"
