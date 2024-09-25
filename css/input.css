@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.padding {
+  @apply py-10;
+}
+
+.titleOne {
+  @apply font-serif font-bold text-3xl text-[#4671c6] ;
+
+}
+@media (max-width: 600px) {.titleOne {text-align: center;}}
+
+
+.playGameBtn {
+  @apply font-serif font-bold text-2xl text-[#f9a7a7] border-4 border-[#3762cc] rounded-xl py-3 px-6 bg-[#e0ebfc] hover:bg-[#4671c6];
+}
+
+.gameDiv {
+  @apply h-screen bg-yellow-200;
+}
+
+.navBar {
+  @apply w-full bg-[#e0ebfc] rounded justify-around items-center h-20 shadow-lg;
+}
+
+#restartBtn {
+  @apply font-serif font-bold text-xl text-[#f9a7a7] border-2 border-[#3762cc] rounded-xl px-4 py-1 bg-[#e0ebfc] hover:bg-[#4671c6] hover:shadow-[#4671c6] hover:shadow-lg;
+}
+
+@media (max-width: 600px) {#restartBtn {font-size: medium}}
+
+.page02TitleStyle {
+  @apply text-2xl font-serif font-bold text-[#3762cc];
+}
+
+@media (max-width: 600px) {.page02TitleStyle {font-size: medium}}
+
+.memory-game {
+  @apply grid grid-cols-4 grid-rows-4 gap-3 ;
+
+}
+
+.frontSide {
+  @apply w-[120px] h-[120px] border-4 border-[#3762cc] rounded-lg
+}
+
+.successDiv{
+  @apply  h-[32.3rem] w-[32.3rem] opacity-80 bg-[#e0ebfc] absolute flex justify-center items-center text-[#4671c6]  text-3xl text-center font-serif font-bold shadow-lg leading-relaxed
+}
+
+@media (max-width: 600px) {.successDiv {width: 26.5rem}}
+
+.scoreWord {
+  @apply font-serif font-bold text-2xl text-[#4671c6] ;
+
+}
